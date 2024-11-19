@@ -124,16 +124,21 @@ body {
         opacity: 0.8;
         border-radius: 25px;
         padding: 20px;
+        width: 95%;
+        max-width: 450px;
+        //*font-family: "Poppins", sans-serif;
+        font-weight: 300;
+        font-style: normal;*/
 }
 .input-city {
     border: none;
     outline: none;
     padding: 10px;
-    font-size: 20px;
+    font-size: 18px;
     border-radius: 25px;
     background-color: #7c7c7c2b;
     color: #ffffff;
-    width: calc(100% - 100px);
+    width: calc(100% - 65px); /* calcula: todo o espaço - 100 pixels   */
 }
 
 .botao-buscar {
@@ -141,13 +146,48 @@ body {
     outline: none;
     padding: 10px;
     border-radius: 50px;
-    background-color: #7c7c7c2b;
-    cursor: pointer;
-    float:right;
+    background-color: #7c7c7c78;
+    cursor: pointer; /* mostra a maozinha quando passa pelo botão */ 
+    float: right; /* alinha para direita */
+
+} 
+
+.img-buscar {
+    width: 20px;
+}
+
+.box-media {
+  margin-top: 30px;
+
+}
+.cidade {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 300;
+
+}
+
+.temp {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 20px;
 
 
 }
 
-.img-buscar {
-    width: 20px;
+.box-menor {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.texto-previsao{
+    color: #ffffff;
+    margin-left: 20px;
+
+}
+
+.umidade {
+  color: #ffffff;
+  margin-top: 20px;
 }
