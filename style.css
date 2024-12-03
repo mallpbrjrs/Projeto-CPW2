@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0px;
+  padding: 10px;
   position: relative;
   background-size: cover;
   background-position: center;
@@ -119,4 +119,34 @@ h2 {
 }
 .descricao {
   text-transform: capitalize;
+}
+
+
+/* Footer Styles */
+.footer {
+  width: 100%;
+  background: rgba(44, 62, 80, 0.9);
+  color: #ecf0f1;
+  text-align: center;
+  padding: 10px 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 3;
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.footer a {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer a:hover {
+  color: #2980b9;
 }
