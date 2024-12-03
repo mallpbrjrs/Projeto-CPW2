@@ -26,10 +26,6 @@ document.addEventListener('DOMContentLoaded', () => {
     async function buscarCidade (cidade) {
         try {
             const resposta = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${cidade}&lang=pt_br&appid=${API_KEY_WEATHER}&units=metric`);
-            
-            if (!resposta.ok) {
-                throw new Error('Erro ao buscar dados do clima');
-            }
             const data = await resposta.json();
             if (data.cod !== 200) {
                 throw new Error(data.message || 'Erro desconhecido');
