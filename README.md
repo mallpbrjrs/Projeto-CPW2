@@ -9,3 +9,4 @@
 - Exibição de condições meteorológicas atuais
 - Tecnologias: HTML5, CSS3, JavaScript
 
+### Tutorial de referência: https://www.youtube.com/watch?v=qxzqEuAOYZ4
